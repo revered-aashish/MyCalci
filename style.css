@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+html {
+  font-family: 'Noto Serif', serif;
+  height: 100%;
+  width: 100%;
+   
+}
+body{
+  background-image: url('https://img.freepik.com/free-vector/black-carbon-fiber-texture-pattern-background_1017-33436.jpg?size=626&ext=jpg');
+}
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  width: 80px;
+  border: 2px solid #bcffa3;
+  border-radius:  9px;
+  cursor: pointer;
+  color: #a069f2;
+  font-weight: bolder;
+}
+.button :hover{
+  cursor: pointer;
+  /* background: #c7a7e6;*/
+  /* color: black; */
+}
+
+.row{
+  margin: 8px 0px;
+}
+
+.row input{
+  font-size: 22px;
+  margin: 0px;
+  padding:10px 38px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
